@@ -1,39 +1,39 @@
 const quizData = [
     {
-        question: "Which language runs in a web browser",
-        a: "Java",
-        b: "C",
-        c: "Python"
+        question: "Which language runs in a web browser?",
+        a: "Jel",
+        b: "B",
+        c: "Porch lights",
         d: "javascript",
         correct: "d",
     },
     {
         question: "What does CSS stand for?",
-        a: "Central Style Sheets",
-        b: "Cascading Style Sheets"
-        c: "Cascading Simple Sheets",
-        d: "Cars SUVs Sailboats",
+        a: "Coping Style Shoes",
+        b: "Cascading Style Sheets",
+        c: "Corrective Styling Sheets",
+        d: "Cool Summer Scenes",
         correct: "b",
     },
     {
-        question: "What does HTML stand for?",
-        a: "Hypertext Markup Language"
-        b: "Hypertext Markdown Language"
-        c: "Hyperloop Machine Language",
-        d: "Helicopters Terminals Motorboats Lamborginis",
+        question: "What is HTML spelled out?",
+        a: "Hypertext Markup Language",
+        b: "Hypertext Markdown Language",
+        c: "Hyperloop Meeting Lanterns",
+        d: "Heaters Terminals Mountains Lagoons",
         correct: "a",
-    }
+    },
     {
-       question: "What year was Javascript launched?",
-       a: "1996",
-       b: "1995",
-       c: "1994",
+       question: "What are variables in coding?",
+       a: "Somebody who codes",
+       b: "Something we can store information in",
+       c: "A cool button",
        d: "none of the above",
        correct: "b", 
     },
 
 
-]; You have 8 delete some
+]; 
 
 const quiz= document.getElementById('quiz')
 const answerE1s = document.querySelectorAll('.answer')
@@ -95,12 +95,8 @@ submitBtn.addEventListener('click', () => {
 
             <button onclick="location.reload()">Reload</button>
             `
-            `
+    
         }
     }
 
-        }
-    }
-
-    }
 })
